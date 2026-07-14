@@ -21,7 +21,7 @@ jobs:
     - name: Set up Cloud SDK
       uses: google-github-actions/setup-gcloud@v1
       with:
-        project_id: careful-chess-495403-e6
+        project_id: my-project-730new
 
     - name: Deploy to App Engine
       run: |
